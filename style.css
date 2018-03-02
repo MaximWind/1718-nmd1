@@ -1,0 +1,115 @@
+body {
+    background-color: #eeeeee;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#owner {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+
+.fa-bars {
+    /*Button to show navigation*/
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    left: 20px;
+    top: 20px;
+}
+
+.fa-bars:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 20px #fff;
+}
+
+#owner h2 {
+    /*style off the name above*/
+    text-align: center;
+    font-size: 30px;
+    background-color: #1e1e1e;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.main_navigation {
+    width: 250px;
+    margin-top: 65px;
+    background-color: #1e1e1e;
+    color: #fff;
+    padding-top: 1px;
+    display: none;
+}
+
+ul.list_ul {
+    list-style-type: none;
+}
+
+ul.list_ul li {
+    /*small list with all my works*/
+    padding: 8px;
+    text-align: left;
+    margin-left: 0px;
+}
+
+ul.list_ul li:hover {
+    border-left: 1px solid #fff;
+    cursor: pointer;
+}
+
+#list_item4:hover {
+    border: none;
+}
+
+#list_item4:hover #sec_list_werk {
+    display: block;
+}
+
+#sec_list_werk {
+    display: none;
+}
+
+#far_stripe {
+    display: none;
+}
+
+
+/*here ends the navigation*/
+
+#main_frame {
+    width: 80%;
+    margin-top: 100px;
+    margin-left: 10%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.frame_item {
+    background-color: bisque;
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+}
+
+h4 {
+    font-size: 18pt;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.frame_tekst {
+    margin-left: 20px;
+    border: 1px solid firebrick;
+}
