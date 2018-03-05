@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+    <link rel="icon" href="cv_icon.png">
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
     </script>
@@ -41,68 +42,109 @@
 
 
         <div class="navbar">
-            <a href="#section1">Wie ben ik</a>
-            <a href="#section2">Mijn interesses</a>
-            <a href="#section3">Mijn doel na de opleiding</a>
+            <a id="buttonCard1" href="#section0">Wie ben ik</a>
+            <a id="buttonCard2" href="#section0">Mijn interesses</a>
+            <a id="buttonCard3" href="#section0">Mijn doel na de opleiding</a>
             <div class="dropdown">
                 <button class="dropbtn">Mijn werken
                     <i id="far_down" class="far fa-caret-square-down"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="#section4">Werk 1</a>
-                    <a href="#section5">Werk 2</a>
-                    <a href="#section6">Werk 3</a>
+                    <a href="#section1">Werk 1</a>
+                    <a href="#section2">Werk 2</a>
+                    <a href="#section3">Werk 3</a>
                 </div>
             </div>
         </div>
     </div>
     <div id="main_frame">
-        <span class="anchor" id="section1"></span>
+        <span class="anchor" id="section0"></span>
         <div class="frame_item" id="frame_item1">
-            <h4>Wie ben ik?</h4>
-            <p class="frame_tekst">
-                <strong>Naam:</strong> Maxim Windels <br>
-                <strong>Geboortedatum:</strong> 22/03/1999<br>
-                <strong>Positieve karaktereigenschappen:</strong>
-                <ul>
-                    <li>Sociaal</li>
-                    <li>Empatisch</li>
-                    <li>Doorzetter</li>
-                </ul><br>
-            </p>
-            <p class="frame_tekst">
-                <strong>Negatieve karaktereigenschappen:</strong>
-                <ul>
-                    <li>Ongeduldig</li>
-                    <li>Humeurig bij weinig slaap</li>
-                </ul><br>
-            </p>
 
+            <div class="frame_subjects" id="frame_subject1">
+                <i class="far fa-hand-point-down"></i>
+                <div class="container">
+                    <div class="card" id="card1">
+                        <div class="front" id="front_me">
+                            <h4>Wie ben ik?</h4>
+                        </div>
+                        <div class="back" class="subjects_text" id="subject_text1">
+                            <p>
+                                <strong>Naam:</strong><br> Maxim Windels <br>
+                            </p>
+                            <p>
+                                <strong>Geboortedatum:</strong><br> 22/03/1999<br>
+                            </p>
+                            <p>
+                                <strong>Positieve karaktereigenschappen:</strong><br> sociaal, ambiteus en sociaal<br>
+                            </p>
+                            <p>
+                                <strong>Negatieve karaktereigenschappen:</strong><br> Ongeduldig en humeurig bij weinig slaap<br>
+                            </p>
+                            <p>
+                                <strong>Opleidingen:</strong><br> Economie-moderne talen (2011-2017)<br> Grafische en digitale media (2017 - heden)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="frame_subjects" id="frame_subject2">
+                <i class="far fa-hand-point-down"></i>
+                <div class="container">
+                    <div class="card" id="card2">
+                        <div class="front">
+                            <h4>Mijn interesses</h4>
+                        </div>
+                        <div class="back" class="subjects_text" id="subject_text2">
+                            <ul>
+                                <strong>Mijn interesses:</strong>
+                                <li>Sport</li>
+                                <li>Reizen</li>
+                                <li>Programmeertalen</li>
+                                <li>Eten en Drinken</li>
+                                <li>Films</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="frame_subjects" id="frame_subject3">
+                <i class="far fa-hand-point-down"></i>
+                <div class="container">
+                    <div class="card" id="card3">
+                        <div class="front">
+                            <h4>Mijn doel na de opleiding</h4>
+                        </div>
+                        <div class="back" class="subjects_text" id="subject_text3">
+                            <ul>
+                                <strong>Mijn doel na de opleiding:</strong>
+                                <li>Een eigen bedrijfje opstarten.</li>
+                                <li>Mijn eigen applicatie, waarmee ik nu al bezig mee ben in de App Store en Google Play Store plaatsen.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <span class="anchor" id="section2"></span>
-        <div class="frame_item" id="frame_item2">
-            <h4>Mijn interesses:</h4>
-        </div>
-        <span class="anchor" id="section3"></span>
-        <div class="frame_item" id="frame_item3">
-            <h4>Mijn doel na de opleiding:</h4>
-        </div>
-        <span class="anchor" id="section4"></span>
+
+        <span class="anchor" id="section1"></span>
         <div class="frame_item" id="frame_item4">
             <h4>Werk 1</h4>
         </div>
-        <span class="anchor" id="section5"></span>
+        <span class="anchor" id="section2"></span>
         <div class="frame_item" id="frame_item5">
             <h4>Werk 2</h4>
         </div>
-        <span class="anchor" id="section6"></span>
+        <span class="anchor" id="section3"></span>
         <div class="frame_item" id="frame_item6">
             <h4>Werk 3</h4>
         </div>
     </div>
 
-
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
+
 
 </html>
